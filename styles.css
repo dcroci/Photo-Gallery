@@ -165,7 +165,7 @@ header {
   flex-direction: column;
 }
 body {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   max-width: 1080px;
 }
@@ -323,6 +323,13 @@ footer {
   h1 {
     margin: 0;
   }
+  figure:nth-child(3) figcaption {
+    position: absolute;
+    bottom: 56%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 1rem;
+  }
 }
 @media screen and (min-width: 1300px) {
   main {
@@ -333,5 +340,12 @@ footer {
   }
   nav ul {
     margin: 0;
+  }
+  figure:nth-child(3) figcaption {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 1rem;
   }
 }
