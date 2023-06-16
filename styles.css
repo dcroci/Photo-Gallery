@@ -198,6 +198,7 @@ main {
 h1 {
   color: var(--green);
   font-weight: bold;
+  margin: 0 auto;
 }
 h2 {
   text-align: center;
